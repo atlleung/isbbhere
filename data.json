@@ -1,5 +1,5 @@
 {
-    "main_status": 1,
+    "main_status": 0,
     "status_text": ["NO", "YES"],
-    "latest_update": "Water broke"
+    "latest_update": "Still waiting..."
 }
