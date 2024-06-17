@@ -1,0 +1,20 @@
+/* index.css */
+
+/* Custom styles */
+.square {
+    min-width: 90%; /* Minimum width */
+    max-width: 100%;   /* Maximum width */
+    width: auto;      /* Automatically adjust width */
+    padding: 20px;    /* Padding around content */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+    text-align: center;  /* Center text horizontally */
+    background-color: #77dd77; /* Default background color */
+}
+
+#status-text {
+    font-size: 36px;
+    font-weight: bold;
+}

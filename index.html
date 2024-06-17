@@ -1,0 +1,37 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Display</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div id="title" class="title">
+            <span id="status-text">Is Miga and Andrew's baby born yet?</span>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div id="status-display" class="square bg-danger text-center text-white">
+            <span id="status-text">NO</span>
+        </div>
+    </div>
+    <div class="container text-center mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Latest Update</h5>
+                <p id="latest-update" class="card-text">2024-06-16</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and jQuery (optional for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
